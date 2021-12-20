@@ -89,7 +89,7 @@ The original experimental setting had the following train/valid/test split:
 
 We note that the training and validation sets are significantly smaller than the test set. Furthermore, the training and validation sets have completely balanced class labels with 1620 and 540 observations for each class, respectively. The test set on the other hand is very imbalanced:
 
-```{r fig.align="center"}
+```{r labels, fig.align="center"}
 # Test Data
 temp <- data %>% slice(15121:n())
 qplot(temp$Cover_Type, geom = 'bar', ylab = 'Count', xlab = 'Class Labels')

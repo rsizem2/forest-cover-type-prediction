@@ -136,4 +136,4 @@ dmypy.json
 */catboost_info/*
 
 # RMarkdown
-README_*
+README_cache*

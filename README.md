@@ -88,7 +88,7 @@ temp <- data %>% slice(15121:n())
 qplot(temp$Cover_Type, geom = 'bar', ylab = 'Count', xlab = 'Class Labels')
 ```
 
-<img src="README_files/figure-gfm/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-gfm/labels-1.png" style="display: block; margin: auto;" />
 
 ## Sources
 
